@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  arch_joke:
+    build:
+      context: .
+    container_name: arch_joke
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
